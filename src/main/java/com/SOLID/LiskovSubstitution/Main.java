@@ -7,10 +7,10 @@ public class Main {
         figure.setY(10);
         figure.setZ(15);
         figure.perimeter();
-        Triangle figure1 = new EquilateralTriangle();
+        EquilateralTriangle figure1 = new EquilateralTriangle();
         figure1.setX(5);
-        figure1.setY(10);
+        figure1.setY(15);
         figure1.setZ(15);
-        figure1.perimeter();
+        figure1.perimeterTwo();
     }
 }

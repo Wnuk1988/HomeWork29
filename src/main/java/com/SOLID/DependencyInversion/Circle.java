@@ -36,6 +36,6 @@ public class Circle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing cirle with " + getColor()+ " " + getX()+ " " + getY()+ " " + getRadius());
+        System.out.println("Drawing cirle with " + getColor() + " " + getX() + " " + getY() + " " + getRadius());
     }
 }

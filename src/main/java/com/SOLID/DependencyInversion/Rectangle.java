@@ -45,6 +45,6 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing rectangle with " + getColor()+ " " + getX1()+ " " + getY1()+ " " + getX2()+ " " + getY2());
+        System.out.println("Drawing rectangle with " + getColor() + " " + getX1() + " " + getY1() + " " + getX2() + " " + getY2());
     }
 }

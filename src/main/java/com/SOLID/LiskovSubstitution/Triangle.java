@@ -4,7 +4,8 @@ public class Triangle {
     private int x;
     private int y;
     private int z;
-    void perimeter(){
+
+    void perimeter() {
         System.out.println(x + y + z);
     }
 
