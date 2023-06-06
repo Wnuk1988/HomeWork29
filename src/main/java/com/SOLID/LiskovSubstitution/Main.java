@@ -7,7 +7,7 @@ public class Main {
         figure.setY(10);
         figure.setZ(15);
         figure.perimeter();
-        EquilateralTriangle figure1 = new EquilateralTriangle();
+        IsoscelesTriangle figure1 = new IsoscelesTriangle();
         figure1.setX(5);
         figure1.setY(15);
         figure1.setZ(15);

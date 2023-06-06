@@ -1,6 +1,6 @@
 package com.SOLID.LiskovSubstitution;
 
-public class EquilateralTriangle extends Triangle {
+public class IsoscelesTriangle extends Triangle {
     @Override
     void perimeter() {
         System.out.println(getX() + getY() + getZ());
