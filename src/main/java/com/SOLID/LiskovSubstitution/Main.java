@@ -9,8 +9,8 @@ public class Main {
         figure.perimeter();
         IsoscelesTriangle figure1 = new IsoscelesTriangle();
         figure1.setX(5);
-        figure1.setY(15);
-        figure1.setZ(15);
+        figure1.setY(30);
+        figure1.setZ(30);
         figure1.perimeterTwo();
     }
 }

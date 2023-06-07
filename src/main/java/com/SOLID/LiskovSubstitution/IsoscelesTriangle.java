@@ -1,18 +1,18 @@
 package com.SOLID.LiskovSubstitution;
 
 public class IsoscelesTriangle extends Triangle {
-    @Override
-    void perimeter() {
-        System.out.println(getX() + getY() + getZ());
-    }
 
     void perimeterTwo() {
-        if (getX() == getY() || getX() == getZ()) {
-            System.out.println(getX() * 2 + getZ());
-        } else if (getX() == getZ()) {
-            System.out.println(getX() * 2 + getY());
+        if (getX() == getY() || getX() == getZ() || getY() == getZ()) {
+            if (getX() == getY()) {
+                System.out.println(getX() * 2 + getZ());
+            } else if (getX() == getZ()) {
+                System.out.println(getX() * 2 + getY());
+            } else {
+                System.out.println(getY() * 2 + getX());
+            }
         } else {
-            System.out.println(getY() * 2 + getX());
+            System.out.println("Данная фигура не ранобедренный треугольник!");
         }
     }
 
